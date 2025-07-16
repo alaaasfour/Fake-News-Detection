@@ -37,5 +37,5 @@ if st.button("Detect"):
             probs = tf.nn.softmax(outputs.logits, axis=-1).numpy()[0]
             fake_prob = probs[0]
             real_prob = probs[1]
-
+            # Display detailed probabilities
             st.write(f"🧪 Confidence — 🔴 Fake News: {fake_prob:.2%}, 🟢 Real News: {real_prob:.2%}")
