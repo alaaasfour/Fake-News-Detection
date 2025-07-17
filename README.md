@@ -58,12 +58,12 @@ Sample Output:
 | BERT (Fine-tuned)   | 99.89 %  |
 
 ## 📦 Installation
-# Clone the repo
+1. Clone the repo
 git clone https://github.com/alaaasfour/fake-news-detection.git
 
 `cd fake-news-detection`
 
-1. (Optional) Create a virtual environment
+2. (Optional) Create a virtual environment
 
 `python -m venv .venv`
 
@@ -71,10 +71,10 @@ git clone https://github.com/alaaasfour/fake-news-detection.git
 
 `.venv\Scripts\activate`     # For Windows
 
-2. Install dependencies
+3. Install dependencies
 
 `pip install -r requirements.txt`
 
-3. Run Streamlit app
+4. Run Streamlit app
 
 `streamlit run app.py`
