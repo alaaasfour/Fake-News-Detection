@@ -57,3 +57,24 @@ Sample Output:
 | Naive Bayes         | 93.46 %  |
 | BERT (Fine-tuned)   | 99.89 %  |
 
+## 📦 Installation
+# Clone the repo
+git clone https://github.com/alaaasfour/fake-news-detection.git
+
+`cd fake-news-detection`
+
+1. (Optional) Create a virtual environment
+
+`python -m venv .venv`
+
+`source .venv/bin/activate`  # For Linux/Mac
+
+`.venv\Scripts\activate`     # For Windows
+
+2. Install dependencies
+
+`pip install -r requirements.txt`
+
+3. Run Streamlit app
+
+`streamlit run app.py`
